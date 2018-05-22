@@ -20,7 +20,7 @@ rpc CreateTransaction (TransferContract) returns (Transaction)　{};
 2.2	Node  
 Fullnode.  
 2.3	Parameters  
-TransferContract: addresses of the sender and the recipient, and amount of transfer (in drop).  
+TransferContract: addresses of the sender and the recipient, and amount of transfer (in sun).  
 2.4	Returns  
 Transaction: returns transaction of transfer contract; request transaction after acquisition of wallet signature.  
 2.5	Function  
@@ -163,11 +163,11 @@ rpc ParticipateAssetIssue (ParticipateAssetIssueContract) returns (Transaction){
 13.2 Node  
 Fullnode.  
 13.3 Parameters  
-ParticipateAssetIssueContract: participant address, issuer address, token name, and amount of token (in drop).  
+ParticipateAssetIssueContract: participant address, issuer address, token name, and amount of token (in sun).  
 13.4 Returns  
 Transaction: returns transaction of participation in token offering.  
 13.5 Function  
-Participation in toke offering.
+Participation in token offering.
 
 ## 14. Query of nodes
 
@@ -232,7 +232,7 @@ NumberMessage: current timestamp (the number of milliseconds since 1970)
 18.4 Returns  
 AssetIssueList: AssetIssueContract list and detailed information   
 18.5 Function  
-List of all nodes. Display of current nodes for users’ reference.
+List of issued tokens by timestamp. Display of current nodes for users’ reference.
 
 ## 19. Get current block
 
@@ -292,7 +292,7 @@ Query of transaction details by ID which is the Hash of transaction.
 23.1 Interface statement  
 rpc getTransactionsByTimestamp (TimeMessage) returns (TransactionList) {};  
 23.2 Node  
-Soliditynod.  
+Soliditynode.  
 23.3 Parameters  
 TimeMessage: starting time and ending time.  
 23.4 Returns  
@@ -326,7 +326,7 @@ TransactionList: transaction list.
 25.5 Function  
 Query of all transactions accepted by one given account.
 
-## 26 Balance freeze  
+## 26. Freeze Balance  
 26.1 Interface statement  
 rpc FreezeBalance (FreezeBalanceContract) returns (Transaction) {};  
 26.2 Node  
@@ -339,10 +339,10 @@ Transaction: Return includes a transaction of balance. Request transaction broad
 
 Two things can be gained through freezing balance:
 
-a.	Bandwidth points. Each update of blockchain transaction consumes bandwidth points (if more than 10s from the previous transaction, the current transaction does not consume any points). Bandwidth points obtained=drops*frozen duration. Each transaction (all operations altering blockchain accounts) consumes 100,000 bandwidth points.  
+a.	Entropy points. Each update of blockchain transaction consumes entropy points (if more than 10s from the previous transaction, the current transaction does not consume any points). Entropy points obtained=sun*frozen duration. Each transaction (all operations altering blockchain accounts) consumes 100,000 entropy points.  
 b.	Votes. The amount of votes gained equals to the amount of frozen TRX.
 
-## 27 Balance unfreeze
+## 27. Unfreeze Balance
 27.1 Interface statement  
 rpc UnfreezeBalance (UnfreezeBalanceContract) returns (Transaction) {};  
 27.2 Node  
@@ -352,9 +352,9 @@ UnfreezeBalanceContract: address.
 27.4 Returns  
 Transaction: returns transaction. Request transaction broadcasting after signed by wallet.  
 27.5 Function  
-Balance can be unfrozen only 3 days after the latest freeze. Voting records will be cleared upon unfrozen balance, while bandwidth points won’t be. Frozen balance will not be automatically unfrozen after 3 days’ duration. 
+Balance can be unfrozen only 3 days after the latest freeze. Voting records will be cleared upon unfrozen balance, while entropy points won’t be. Frozen balance will not be automatically unfrozen after 3 days’ duration. 
 
-## 28 Block-production reward redemption  
+## 28. Block-production reward redemption  
 28.1 Interface statement  
 rpc WithdrawBalance (WithdrawBalanceContract) returns (Transaction) {};  
 28.2 Node  

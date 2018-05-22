@@ -1,12 +1,12 @@
 # Community
 
-Tron community is driven by principles of sharing, equality,freedom of speech and personal expression were community members supporting each other. The Tron community social system provides all supporters and participants with more accessible and comprehensive resources and information on the projects of Tron. No participant will come across any restriction during resource acquisition or communicative exchanges, as long as they conform to community regulations and be actively engaged in community construction and maintenance.
+TRON community is driven by principles of sharing, equality, freedom of speech and personal expression where community members support each other. The community social system provides all supporters and participants with more accessible and comprehensive resources and information on the projects of TRON. All participants will have full freedom without any restrictions to express their talents, suggest new ideas and opinate and discuss about different topics (subjects), as long as they follow the community rules and are actively engaged in community development at all levels.
 
 ## Reddit
 
-To its host of supporters and developers converging here,TRON [reddit](https://www.reddit.com/r/Tronix/)is the dream venue for brainstorming and the exchange of ideas. With a firm belief in the freedom of speech, Tron community as a non-profit community accommodates all perspectives, with the aim for all participants to achieve progress through sharing.  
+To host its supporters and developers, TRON [reddit](https://www.reddit.com/r/Tronix/)is the dream venue for brainstorming and the exchange of ideas. With a firm belief in the freedom of speech, As a non-profit community, TRON accommodates all perspectives, with the aim for all participants to achieve progress through sharing.  
 
-Current Reddit threads:
+Current Official Subreddits:
 
 + [/r/TRXTrading](https://www.reddit.com/r/TRXTrading/) – TRON trading, price and market.
 + [/r/tronsupport](https://www.reddit.com/r/tronsupport/)– Support for any TRON-related questions. 
@@ -17,7 +17,7 @@ Keeping in touch with outstanding contributors on Github, the tech team of Tron 
 
 ## Gitter Rooms
 
-Log on to gitter with your github account to participate in Tron’s discussions. Accessible Gitter channels revolve around the topic of a certain database. Please select a suitable channel and topic and maintain the relevance of your posts.
+Log in to gitter with your github account to participate in Tron’s discussions. Accessible Gitter channels revolve around the topic of a certain database. Please select a suitable channel and topic and maintain the relevance of your posts.
 
 [java-tron](https://github.com/tronprotocol/java-tron) – about full node, the launch of mainnet, testnet.  
 [wallet-web](https://github.com/tronprotocol/wallet-web) – blockchain explorer and web wallet developed by community.  
@@ -81,7 +81,7 @@ TRON Github Contributor:
 [Kamil Zieliński](https://github.com/KamilZielinski)  
 [Wendy Sanarwanto](https://github.com/WendySanarwanto)
 
-TRON Translation Contributor:
+Translation Contributor:
 
 [fbsobreira](https://crowdin.com/profile/fbsobreira)  
 [PiterSpain](https://crowdin.com/profile/PiterSpain)  

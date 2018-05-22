@@ -22,17 +22,11 @@ Official launch of the genesis block will be on June 25 00:00 (GMT+8).
 
 Token migration:
 + Exchanges: ERC20 TRX tokens will be transferred to TRON. TRON will transfer mainnet tokens to exchanges.
-+ SR: SR candidate express migration will ensure swift application processing. SRs will have a certain number of initial votes. 
++ SR: Express TRX migration channel for Super Representative candidates can ensure unimpeded application for candidacy and a certain amount of initial votes.
 
 ## 4.SR Elections & Rewards
 
 Users vote for SR candidates using wallets. SRs are responsible for transaction packaging and block generation.
-
-Users:
-1. Please keep an eye on token migration.
-2. Please note that the test voting will be from June 1 to June 24 (GMT+8).
-3. Please note that the official voting will be on June 26 (GMT+8).
-
 
 # Common users
 
@@ -52,7 +46,10 @@ There are three scenarios:
      wallets  in order to vote.
 
 3. If your TRX is held in a wallet and you were not aware of the migration notice, or see the notice after June 25th, please visit our permanent token-exchange counter to exchange your tokens for mainnet TRX.  
-    
-   If your TRX is held in a wallet and you were not aware of the migration notice, or saw the migration notice after June 25th, please visit our permanent token-exchange counter to exchange your tokens for Mainnet TRX.
+  User's token migration is not perceptible. Please deposit TRX to an exchange before June 25th (GMT+8), and TRX's normal trading will not be affected.
 
-   **Note**: User's token migration is not perceptible. Please deposit TRX to an exchange before June 25th (GMT+8), and TRX's normal trading will not be affected.
+**Note**
+1. Please keep an eye on token migration.
+2. Please note that the test voting will be from June 1 to June 24 (GMT+8).
+3. Please note that the official voting will be on June 26 (GMT+8).
+4. User's token migration is not perceptible. Please deposit TRX to an exchange before June 25th (GMT+8), and TRX's normal trading will not be affected.
